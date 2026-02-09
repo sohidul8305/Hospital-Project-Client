@@ -39,9 +39,14 @@ const HealthTipsSection = () => {
               নিয়মিত স্বাস্থ্য সম্পর্কিত আপডেট পান
             </p>
           </div>
-          <Link to="/health_tips" className="btn btn-outline btn-primary">
-            সব পড়ুন
-          </Link>
+  <Link
+  to="/health_tips"
+  className="btn btn-outline btn-primary"
+>
+  সব পড়ুন
+</Link>
+
+
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

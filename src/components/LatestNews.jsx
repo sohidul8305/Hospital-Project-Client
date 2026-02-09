@@ -27,7 +27,9 @@ const LatestNews = () => {
                 <h3 className="card-title">{item.title}</h3>
                 <p>{item.excerpt}</p>
                 <div className="card-actions">
-                  <Link to={`/news/${item.id}`} className="btn btn-primary btn-sm">পড়ুন</Link>
+                <Link to={`/news/${item.id}`} className="btn btn-primary btn-sm">
+  পড়ুন
+</Link>
                 </div>
               </div>
             </div>

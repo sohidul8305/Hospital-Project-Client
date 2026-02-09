@@ -10,6 +10,7 @@ import Register from "../page/Register";
 import Medicines from "../page/Medicines";
 import Services from "../page/Services";
 import Health_tips from "../page/Health_tips";
+import News from "../components/News";
 
 export const router = createBrowserRouter([
   {
@@ -52,10 +53,15 @@ export const router = createBrowserRouter([
         path: "services",
         Component: Services,
       },
-      {
-        path: "health_tips",
-        Component: Health_tips,
-      }
+    {
+  path: "health_tips/:id",
+  Component: Health_tips,
+},
+   {
+  path: "/news/:id",
+  Component: News,
+}
+
     ]
   },
 ]);
