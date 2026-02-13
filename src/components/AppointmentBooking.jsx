@@ -29,7 +29,7 @@ const AppointmentBooking = () => {
     <div className="bg-base-100 py-16">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-8">এপয়েন্টমেন্ট বুক করুন</h2>
-        
+
         <form onSubmit={handleBooking} className="space-y-6">
           {/* Doctor Selection */}
           <div>

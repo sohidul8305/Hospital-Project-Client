@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import Rootlayout from '../Layout/Rootlayout'
-import Home from '../page/Home'
+import Home from  '../page/Home'
 import Doctor from "../page/Doctor";
 import Medicine from "../page/Medicine";
 import About from "../page/About";
@@ -11,6 +11,7 @@ import Medicines from "../page/Medicines";
 import Services from "../page/Services";
 import Health_tips from "../page/Health_tips";
 import News from "../components/News";
+import EmergencyContact from "../components/EmergencyContact";
 
 export const router = createBrowserRouter([
   {
@@ -19,7 +20,7 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        Component: Home,
+        Component:Home ,
       },
       {
         path: "doctors",
@@ -60,6 +61,10 @@ export const router = createBrowserRouter([
    {
   path: "/news/:id",
   Component: News,
+},
+   {
+  path: "emergency",
+  Component: EmergencyContact,
 }
 
     ]
